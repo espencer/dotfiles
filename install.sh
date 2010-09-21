@@ -1,7 +1,8 @@
 #!/bin/sh
 
-echo Installing .vimrc and .screenrc files...
+DIRECTORY=$(dirname $(readlink -f $0))
+echo Installing .vimrc and .screenrc files to $DIRECTORY links...
 
-ln -s "$HOME/lib/dotfiles/vim/.vimrc" "$HOME/.vimrc"
-ln -s "$HOME/lib/dotfiles/.screenrc" "$HOME/.screenrc"
+ln -s "$DIRECTORY/.vimrc" "$HOME/.vimrc"
+ln -s "$DIRECTORY/.screenrc" "$HOME/.screenrc"
 
