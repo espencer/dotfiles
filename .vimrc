@@ -65,3 +65,5 @@ syntax on
 set background=dark
 colorscheme delek
 "colorscheme mustang
+
+set paste
