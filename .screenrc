@@ -8,5 +8,7 @@ defscrollback 1024
 # enabled if there is no hardstatus setting for your terminal)
 hardstatus on
 hardstatus alwayslastline
-hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
+#hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} ${USER}@%H"
+hardstatus string "%{= ky}%-Lw%{=r}%20>%n %t%{= ky}%+Lw %-= ${USER}@%H "
+termcapinfo gnome|xterm* ti@:te@
 
