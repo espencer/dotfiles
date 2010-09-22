@@ -50,7 +50,7 @@ set formatoptions=qrn1
 
 set list
 "set listchars=tab:▸\ ,eol:¬
-set listchars=tab:>-,eol:¬,trail:~
+set listchars=trail:~,tab:>-,eol:$
 
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -69,4 +69,5 @@ colorscheme delek
 
 set paste
 
-"highlight SpecialKey ctermfg=7 guifg=gray
+highlight SpecialKey ctermfg=7 guifg=gray$
+highlight NonText ctermfg=7 guifg=gray$
