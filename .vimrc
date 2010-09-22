@@ -49,7 +49,8 @@ set formatoptions=qrn1
 " set colorcolumn=85
 
 set list
-set listchars=tab:▸\ ,eol:¬
+"set listchars=tab:▸\ ,eol:¬
+set listchars=tab:>-,eol:¬,trail:~
 
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -67,3 +68,5 @@ colorscheme delek
 "colorscheme mustang
 
 set paste
+
+"highlight SpecialKey ctermfg=7 guifg=gray
