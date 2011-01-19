@@ -1,73 +1,23 @@
 " DLM
-" from http://stevelosh.com/blog/2010/09/coming-home-to-vim
 
-filetype off
-filetype plugin indent on
+" Invisible characters
+set list!
+set listchars=tab:▸▸,eol:¶,trail:·
+highlight NonText guifg=Grey
+highlight SpecialKey guifg=Grey
+set ts=8 sts=4 sw=4 expandtab
 
-set nocompatible
+" highlight search
+set hls
 
-set modelines=0
+" show line number
+set number
 
+" highlight current line
+set cul
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab
-
-set encoding=utf-8
-set scrolloff=3
-"set autoindent
-set showmode
-set showcmd
+" change between buffers without saving
 set hidden
-set wildmenu
-set wildmode=list:longest
-set visualbell
-set cursorline
-set ttyfast
-set ruler
-set backspace=indent,eol,start
-set laststatus=2
-"set relativenumber
-"set undofile
 
-nnoremap / /\v
-vnoremap / /\v
-set ignorecase
-set smartcase
-set gdefault
-set incsearch
-set showmatch
-set hlsearch
-nnoremap <leader><space> :noh<cr>
-nnoremap <tab> %
-vnoremap <tab> %
-
-set wrap
-set textwidth=79
-set formatoptions=qrn1
-" set colorcolumn=85
-
-set list
-"set listchars=tab:▸\ ,eol:¬
-set listchars=trail:~,tab:>-,eol:$
-
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
-
-" Color scheme (terminal)
-syntax on
-set background=dark
-colorscheme delek
-"colorscheme mustang
-
-set paste
-
-highlight SpecialKey ctermfg=7 guifg=gray$
-highlight NonText ctermfg=7 guifg=gray$
+" folding by sintax
+set foldmethod=syntax
