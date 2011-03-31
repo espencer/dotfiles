@@ -1,5 +1,9 @@
 " DLM
 
+" pathogen plugin loader startup
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " Invisible characters
 set list!
 set listchars=tab:▸▸,eol:¶,trail:·

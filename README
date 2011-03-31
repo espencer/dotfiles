@@ -1,1 +1,16 @@
 some *nix configuration files
+
+to install:
+
+add pathogen vim plugin 
+http://www.vim.org/scripts/script.php?script_id=2332
+
+git submodule update --init
+
+to add a new module:
+
+git submodule add http://github.com/tpope/vim-fugitive.git vim/bundle/fugitive
+
+some plugins installed:
+
+* vim-taglist (use :TlistOpen)
