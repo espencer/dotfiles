@@ -13,3 +13,9 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "vim/bundle/voom"]
+	path = vim/bundle/voom
+	url = https://github.com/vim-scripts/VOoM.git
+[submodule "vim/bundle/sessions"]
+	path = vim/bundle/sessions
+	url = https://github.com/vim-scripts/sessions.vim.git
