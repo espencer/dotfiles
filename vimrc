@@ -29,10 +29,10 @@ syntax on
 filetype on
 filetype plugin indent on
 
-au FileType python set omnifunc=pythoncomplete#Complete
-let g:SuperTabDefaultCompletionType = "context"
+"au FileType python set omnifunc=pythoncomplete#Complete
+"let g:SuperTabDefaultCompletionType = "context"
 
-set completeopt=menuone,longest,preview
+"set completeopt=menuone,longest,preview
 
 let g:session_autosave=1
 let g:session_autoload=1
