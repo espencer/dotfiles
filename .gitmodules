@@ -19,3 +19,6 @@
 [submodule "vim/bundle/sessions"]
 	path = vim/bundle/sessions
 	url = https://github.com/vim-scripts/sessions.vim.git
+[submodule "vim/bundle/supertab-continued"]
+	path = vim/bundle/supertab-continued
+	url = https://github.com/vim-scripts/SuperTab-continued..git

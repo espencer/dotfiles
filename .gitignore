@@ -1,2 +1,5 @@
 # vim backup files
 .*.swp
+/.gvimrc.swo
+/vim/.netrwhist
+/.vimrc.swo
