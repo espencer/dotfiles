@@ -13,6 +13,7 @@ set ts=4 sts=4 sw=4 expandtab
 
 " highlight search
 set hls
+"nnoremap <esc> :noh<return><esc>
 
 " show line number
 set number
@@ -43,3 +44,6 @@ autocmd BufRead,BufNewFile *.txt,README,TODO,CHANGELOG,NOTES
         \ textwidth=70 wrap formatoptions=tcqn
         \ formatlistpat=^\\s*\\d\\+\\.\\s\\+\\\\|^\\s*<\\d\\+>\\s\\+\\\\|^\\s*[a-zA-Z.]\\.\\s\\+\\\\|^\\s*[ivxIVX]\\+\\.\\s\\+
         \ comments=s1:/*,ex:*/,://,b:#,:%,:XCOMM,fb:-,fb:*,fb:+,fb:.,fb:>
+
+set colorcolumn=80
+
